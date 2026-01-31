@@ -1,33 +1,24 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VAMS TV - Visionary</title>
+    <title>VAMS TV - Live</title>
+    <link rel="icon" type="image/png" href="logovams.png">
     <style>
         body { background: #000; color: #fff; font-family: sans-serif; text-align: center; padding: 20px; }
-        .logo-vams { width: 150px; border-radius: 10px; box-shadow: 0 0 20px #00f2ff; margin-bottom: 20px; }
-        .player-placeholder { 
-            width: 100%; max-width: 640px; aspect-ratio: 16/9; 
-            background: #1a1a1a; margin: 20px auto; border: 2px solid #00f2ff;
-            display: flex; align-items: center; justify-content: center; border-radius: 15px;
-        }
-        .yt-btn { 
-            background: #ff0000; color: white; padding: 12px 25px; 
-            text-decoration: none; border-radius: 10px; font-weight: bold; 
-            display: inline-block; box-shadow: 0 0 15px rgba(255,0,0,0.5); 
-        }
-        .back-btn { display: inline-block; margin-top: 30px; color: #00f2ff; text-decoration: none; font-weight: bold; border: 1px solid #00f2ff; padding: 10px 20px; border-radius: 10px; }
+        .logo { width: 150px; box-shadow: 0 0 20px #00f2ff; border-radius: 10px; margin-bottom: 20px; }
+        .player { width: 100%; max-width: 640px; aspect-ratio: 16/9; background: #1a1a1a; margin: 20px auto; border: 2px solid #00f2ff; border-radius: 15px; display: flex; align-items: center; justify-content: center; flex-direction: column; }
+        .yt-btn { background: #ff0000; color: #fff; padding: 12px 25px; text-decoration: none; border-radius: 10px; font-weight: bold; margin-top: 10px; }
+        .back-btn { display: inline-block; margin-top: 30px; color: #00f2ff; text-decoration: none; border: 1px solid #00f2ff; padding: 10px 20px; border-radius: 10px; font-weight: bold; }
     </style>
 </head>
 <body>
-    <img src="logovams.png" class="logo-vams" onerror="this.src='https://via.placeholder.com/150?text=VAMS+TV';">
-    <h2>LIVE STREAMING VAMS TV</h2>
-    <div class="player-placeholder">
-        <div>
-            <p style="margin-bottom: 15px;">📺 Tonton Siaran Langsung di:</p>
-            <a href="https://www.youtube.com/@VAMSTV" target="_blank" class="yt-btn">BUKA YOUTUBE</a>
-        </div>
+    <img src="logovams.png" class="logo" onerror="this.src='https://via.placeholder.com/150?text=VAMS+TV';">
+    <h1>LIVE STREAMING VAMS TV</h1>
+    <div class="player">
+        <p>📺 Tonton Siaran Langsung di:</p>
+        <a href="https://www.youtube.com/@VAMSTV" target="_blank" class="yt-btn">BUKA YOUTUBE</a>
     </div>
     <a href="https://triyuliansyah588ok.github.io/Visionary/" class="back-btn">⬅ KEMBALI KE MENU UTAMA</a>
 </body>
